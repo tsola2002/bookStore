@@ -1,9 +1,8 @@
 language: java
 jdk:
-  - openjdk8
-
+- openjdk8
 deploy:
   provider: heroku
   api_key:
-     secure: $HEROKU_TOKEN
-  app: "book-app-demo-store"
+    secure: UKrCUFBCa778SPjkAbmcf1INTcowEJahRSftxS2NxWaDBua6ZSqe/OFGKf7Kdt9krtGhW4TJ7UYCu3XsdAi/79YDyyslWh4d1qwW8SNrq1u01cYK1XyUHTVKC5xnyIpCXkVfLhjcMI/tt48Jz+kYJ94hhJlOnbX+3n9dQSIB/Zkqrzumeye2Sk1HT8cVdwfBRmBmuKIQd+6FkJLq7qA3yRxpds5Rrsl7W3CizQ34hziPuHgGNfonzJ0waObsEUKLHA8nZ+LXiPMCKt4dTrvBiuey1jedNaGhNE8wQAJrL9Qg2f6m+q/5SUqHgn4srIpWOlFdgml+KNu7RHe3Df9efkBcPchabDaoTnjX+uoiNF/J8fP6xrCdOa1BLeGzc9Bjfu5Whx/ASlWSkTyVCyUX3D9lH3oPb3RxjFKLH/2hXaATh7GLkj1SjRFqyCEveyGu+meaNZhnmEHvH15Ep6ewMp6VMfDUDSIMGyC1POcTpGm5w04EgSxfxLMLXfZwKnEZDGEm413+YbrwQXwEMl2N9M6/A8luXwpRfj8d6Mh/2aLkVZYlgA6sXE3vWFpbBNA/UzVJLJ7R07EC9usjUam3iQ3wC696oyvDfWl2JZ7vCRWEsHwAEFVO7Aw7Ts6X702sl8nLcY4tUdmGqSdSJWwZ0GCsB3SlDKc0AodhYXHfauk=
+  app: book-app-demo-store
